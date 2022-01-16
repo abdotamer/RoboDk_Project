@@ -30,7 +30,7 @@ for i in range(len(data)):
         RDK.Command("Trace", "Off")
         robot.MoveJ(target)
     if i == 0:
-        RDK.Command("Trace", "Reset")
+        RDK.Command("Trace", "Reset") #reset clear all the previous Traces
 
 
 #Notifying the user that the engraving is done
